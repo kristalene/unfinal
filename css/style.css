@@ -639,18 +639,105 @@ header .flex .navbar a:hover{
     color:var(--light-color);
     padding-top: 1.5rem; 
 }
+
 .contact .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
     gap: 1.5rem;
     align-items: flex-start;
+    justify-content: center;
+}
+.contact .box-container .box{
+    background-color: white;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    text-align: center;
+}
+.contact .box-container .box i{
+    height: 4.5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color: var(--main-color);
+    background-color: rgb(223, 217, 217);
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+.contact .box-container .box a{
+    display: block;
+    padding-top: .5rem;
+    font-size: 1.6rem;
+    color: #c1b9b9;
+    line-height: 1.8rem;
+}
 
+.account-form-container {
+    background: url(../image/whychooseus.jpg), rgb(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: color;
+}
+.account-form-container .account-form{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.account-form-container .account-form form{
+    background-color: white;
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    width: 50rem;
+    text-align: center;
+}
 
+.account-form-container .account-form form h3{
+    font-size: 2.5rem;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom:  1rem;
+}
+.account-form-container .account-form form .input{
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    padding: 1.4rem;
+    background-color: rgb(248, 228, 192);
+    border-radius:.5rem;
+}
+.account-form-container .account-form form p{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: black;
+}
+.account-form-container .account-form form p a{
+    color: orange(21, 21, 21);
+
+}
+.account-form-container .account-form form p a:hover{
+    background-color: white;
+    text-decoration: underline;
 }
 
 
 
 
+
+.footer .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer .grid .box{
+    display: flexbox;
+}
 
 .footer .grid .box h3{
     font-size: 2rem;
